@@ -15,3 +15,9 @@ jobs:
           terraform_version: '1.13.0'
       - name: Show Terraform version
         run: terraform version
+      - name: Show Pull Request Info
+        run: |
+          echo """
+            The pull request title is: ${{ github.event.pull_request.title }}
+            and it is from ${{ github.head_ref }} to ${{ github.base_ref }}
+          """

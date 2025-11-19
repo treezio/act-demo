@@ -1,0 +1,69 @@
+{
+  "action": "opened",
+  "number": 1,
+  "pull_request": {
+    "id": 123456789,
+    "number": 1,
+    "state": "open",
+    "title": "feat: Awesome and misterious feature",
+    "body": "This is a really awesome feature that does amazing things.",
+    "created_at": "2025-10-03T10:30:00Z",
+    "updated_at": "2025-10-03T10:30:00Z",
+    "closed_at": null,
+    "merged_at": null,
+    "merge_commit_sha": null,
+    "assignee": null,
+    "assignees": [],
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "labels": [
+      {
+        "id": 1,
+        "name": "enhancement",
+        "color": "84b6eb"
+      }
+    ],
+    "milestone": null,
+    "draft": false,
+    "head": {
+      "label": "treezio:feat-awesome-feature",
+      "ref": "feat-awesome-feature",
+      "sha": "1385dd3e20ed7df86a99c893163d100ad2835c0d"
+    },
+    "base": {
+      "label": "treezio:master",
+      "ref": "master",
+      "sha": "3f3004e81386fdb1865cecdcfc565bf0244c2d77"
+    },
+    "user": {
+      "login": "treezio",
+      "id": 12345,
+      "type": "User"
+    }
+  },
+  "repository": {
+    "id": 123456678,
+    "name": "act-demo",
+    "full_name": "treezio/act-demo",
+    "private": false,
+    "owner": {
+      "login": "treezio",
+      "id": 12345,
+      "type": "User"
+    },
+    "html_url": "https://github.com/treezio/act-demo",
+    "description": "GitHub Action for automated Terraform module releases and documentation",
+    "fork": false,
+    "created_at": "2023-01-15T08:00:00Z",
+    "updated_at": "2025-06-02T09:00:00Z",
+    "pushed_at": "2025-06-02T10:30:00Z",
+    "clone_url": "https://github.com/treezio/act-demo.git",
+    "ssh_url": "git@github.com:treezio/act-demo.git",
+    "default_branch": "main"
+  },
+  "sender": {
+    "login": "treezio",
+    "id": 12345,
+    "type": "User"
+  }
+}
