@@ -9,7 +9,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Show Terraform version
+      - name: install curl
+        run: sudo apt-get install -y curl
+      - name: Show curl version
         run: curl --version
       - name: Show Pull Request Info
         run: |

@@ -1,6 +1,6 @@
-FROM alpine:latest
+FROM ubuntu:latest
 
-RUN apk --no-cache add curl unzip git bash
+RUN apt-get update && apt-get install -y curl
 
 # Smoke Tests
 RUN curl --version
