@@ -1,12 +1,9 @@
-Name: Ruby CI
-On:
+name: Ruby CI
+on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
-Jobs:
+jobs:
   show-version:
     runs-on: ubuntu-latest
     steps:
