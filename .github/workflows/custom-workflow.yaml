@@ -9,6 +9,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+      - if: ${{ env.ACT }}
+        name: Only on ACT
+        run: echo "Hello I'm running on ACT!"
       - name: install curl
         run: sudo apt-get install -y curl
       - name: Show curl version
@@ -18,4 +21,4 @@ jobs:
           echo """
             The pull request title is: ${{ github.event.pull_request.title }}
             and it is from ${{ github.head_ref }} to ${{ github.base_ref }}
-          """
+          ""
