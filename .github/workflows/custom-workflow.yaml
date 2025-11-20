@@ -21,4 +21,4 @@ jobs:
           echo """
             The pull request title is: ${{ github.event.pull_request.title }}
             and it is from ${{ github.head_ref }} to ${{ github.base_ref }}
-          ""
+          """
