@@ -13,7 +13,7 @@ jobs:
         name: Only on ACT
         run: echo "Hello I'm running on ACT!"
       - name: install curl
-        run: sudo apt-get install -y curl
+        run: apt-get install -y curl
       - name: Show curl version
         run: curl --version
       - name: Show Pull Request Info
